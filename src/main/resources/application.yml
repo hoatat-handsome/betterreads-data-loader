@@ -1,0 +1,25 @@
+datadump.location:
+            author: E:\\Java\\Cassandra\\ol_dump_authors_2021-09-22.txt
+            works: E:\\Java\\Cassandra\\ol_dump_works_2021-09-22.txt
+
+spring:
+    data:
+        cassandra:
+            keyspace-name: main
+            username: YhteBTPyJKdMWncXlGavxdGY
+            password: 1DcY+_-Ix9kcSOU,ejPx3KiJO8uKJuTPpnbnjEDslCh,ZSgRrdOij.b2TY6cjmQjyx8MFKTLw7jid5Ch4+OoEyZZYB6ujuKrelInpPlKX-HYDHiA.SqrrAx3lP5jDgS,
+            schema-action: create-if-not-exists
+            request:
+                timeout: 10s
+            connection:
+                connect-timeout: 10s
+                init-query-timeout: 10s
+
+datastax.astra:
+    secure-connect-bundle: secure-connect.zip
+
+astra.db:
+        id: 33b11540-414f-40b4-aac9-1fc5cf4b0834-1
+        region: asia-south1
+        keyspace: main
+        application.token: AstraCS:YhteBTPyJKdMWncXlGavxdGY:7a82f8fbf71af25eb254d00a758b4ef6f4119a963d8f963cb8256fc2c9dfb7c3
